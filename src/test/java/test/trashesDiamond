@@ -1,0 +1,7 @@
+   //verifying before click if webelement is "dislayed"
+         soft.assertTrue(pisano.widget.isDisplayed());
+        //after this verfied we can sure whether webelement is enable
+        pisano.widget.click();
+         action.click(pisano.converFlow)
+                        .sendKeys(fake.leagueOfLegends().quote(), Keys.ENTER,Keys.TAB,Keys.TAB).click()
+                        .sendKeys(Keys.TAB,Keys.TAB,Keys.TAB).click().sendKeys(Keys.TAB,Keys.TAB).click().perform();
